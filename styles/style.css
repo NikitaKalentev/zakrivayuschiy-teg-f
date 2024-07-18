@@ -188,6 +188,10 @@
   padding-inline-end: 25px;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 .card__like-button {
   inline-size: 130px;
 }

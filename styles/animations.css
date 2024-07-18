@@ -26,12 +26,10 @@
 @keyframes heartbeat {
   0% {
     scale: 1;
-    transform-origin: center;
   }
 
   100% {
     scale: 1.25;
-    transform-origin: center;
   }
 }
 
@@ -102,6 +100,7 @@
 
 .like-icon.is-liked .heart path {
   animation: heartbeat 0.3s ease-in alternate 1 0.1s;
+  transform-origin: center;
 }
 
 .like-icon.is-liked path.sparks {
